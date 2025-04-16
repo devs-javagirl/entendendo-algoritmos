@@ -1,3 +1,7 @@
+// Exercício 1: Como encontrar um número em uma lista ordenada mais rapidamente do que com a busca linear?
+// A busca binária é mais eficiente que a busca linear. Ela divide a lista pela metade a cada iteração, reduzindo drasticamente o número de comparações.
+// Implementação em Java:
+
 public class PesquisaBinaria {
     // função que faz a pesquisa
     public static int buscaBinaria(int[] lista, int valor) {
